@@ -29,7 +29,7 @@ body{
         text-align: center;
         justify-content: center;
         width: 80%;
-        height: 95px;
+        height: 140px;
         margin-right: auto;
         margin-left: auto;
         opacity: 0.6;
@@ -44,8 +44,9 @@ body{
         width: 50%;
         margin-right: auto;
         margin-left: auto;
-        height: 100px;
+        height: px;
         text-transform: capitalize;
+        
     
 }
 #fill{
@@ -59,7 +60,7 @@ body{
         padding-top: 10px;
         margin-right: auto;
         margin-left: auto;
-        height: 50px;
+        height: 80px;
         font-family: Roboto;
         font-size: 20px;
 }
