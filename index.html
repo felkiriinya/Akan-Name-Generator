@@ -15,9 +15,64 @@
            <p class="lead">The Akan people of Ghana frequently name their children after the day of the week they were born. For each day of the week, there is a name available for each gender.
             This web application helps you know your Akan name just from your birthday and gender! Awesome right?</p>
             <p class="lead">Lets have some fun!</p>
-
        </div>
+       <!--Asking you to fill out the form-->
+       <div class="fillup">
+           <p id="fill">
+               Enter your birth details as you fill out the form !
 
+           </p>
+          <!--<p id="your-name">
+            
+               
+           </p>
+             --> 
+       </div>
+       <!--User details form-->
+       <form action="" class="user-input">
+           
+           <label for="birth-year">
+               YEAR:
+               <input type="number" id="yearInput" name="birth-year" placeholder="YYYY" value="" required>
+           </label>
+           
+           <label for="birth-month">
+            MONTH
+            <select name="" id="monthInput" >
+                <option>------</option>
+                <!--placeholder for month input box -->
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+           </label>
+           <label for="birth-day">
+               DAY:
+               <input type="number" id="dayInput" name="birth-day" placeholder="DD" value="" min="1" max="31" required>
+           </label>
+           <!--choose your inputs-->
+           <br><br>
+           <label for="gender">
+               <p>WHAT'S YOUR GENDER?</p>
+               
+               MALE
+               <input type="radio" name="gender" id="maleInput"  value="male"  required> <br>
+               FEMALE
+               <input id="femaleInput" type="radio" name="gender" value="female" required>
+           </label>
+           <br><br>
+           <input type="submit" id="get-name" value="GET YOUR AKAN NAME"  >
+
+       </form>
     </div>
     
 </body>

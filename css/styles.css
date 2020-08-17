@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1537530290513-1644669d51eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.jumbotron{
+    font-weight: bold;
+    margin: 50px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.7;
+    font-family: Roboto;
+    
+}
+.fillup{
+    
+        background-color:brown;
+        text-align: center;
+        justify-content: center;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        opacity: 0.6;
+        border-radius: 10px;
+        color: blanchedalmond;
+    }
+#your-name{
+ 
+        text-align: center;
+        justify-content: center;
+        color: black;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 100px;
+        text-transform: capitalize;
+    
+}
+#fill{
+   
+        text-align: center;
+        justify-content: center;
+        color:white;
+        width: 50%;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 50px;
+        font-family: Roboto;
+        font-size: 20px;
+}
+.user-input{
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+   border-radius: 10px;
+    opacity: 0.7;
+    color: white;
+    font-size: 18px;
+    font-family: Roboto;
+}
+#get-name{
+    width: 20%;
+    margin: 20px;
+    padding: 6px;
+    color: #FFF;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:chocolate;
+}
+
+    
+    
+
+
+
