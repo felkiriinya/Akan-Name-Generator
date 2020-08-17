@@ -13,8 +13,8 @@
        <div class="jumbotron jumbotron-fluid">
            <h1 class="display-4">AKAN NAME GENERATOR</h1>
            <p class="lead">The Akan people of Ghana frequently name their children after the day of the week they were born. For each day of the week, there is a name available for each gender.
-            This web application helps you know your Akan name just from your birthday and gender! Awesome right?</p>
-            <p class="lead">Lets have some fun!</p>
+            This web application helps you know your Akan name just from your birthday and gender! Interesting right?</p>
+            <p class="lead">Lets play and have some fun!</p>
        </div>
        <!--Asking you to fill out the form-->
        <div class="fillup">
@@ -22,21 +22,23 @@
                Enter your birth details as you fill out the form !
 
            </p>
-          <!--<p id="your-name">
+          <p id="error-text">
             
                
            </p>
-             --> 
+             
        </div>
        <!--User details form-->
+       <div id="displayName">
+           <!--where name will be displayed-->
        <form action="" class="user-input">
            
-           <label for="birth-year">
+           <label for="yearInput">
                YEAR:
                <input type="number" id="yearInput" name="birth-year" placeholder="YYYY" value="" required>
            </label>
            
-           <label for="birth-month">
+           <label for="monthInput">
             MONTH
             <select name="" id="monthInput" >
                 <option>------</option>
@@ -55,7 +57,7 @@
                 <option>December</option>
             </select>
            </label>
-           <label for="birth-day">
+           <label for="dayInput">
                DAY:
                <input type="number" id="dayInput" name="birth-day" placeholder="DD" value="" min="1" max="31" required>
            </label>
@@ -72,6 +74,7 @@
            <br><br>
            <input type="submit" id="get-name" value="GET YOUR AKAN NAME"  >
        </form>
+    </div>
        <div class="copyright">
         <p >Copyright &copy; Felista Kiriinya 2020</p>
 
