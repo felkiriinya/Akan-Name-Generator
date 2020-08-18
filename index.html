@@ -72,7 +72,7 @@
                <input id="femaleInput" type="radio" name="gender" value="female" required>
            </label>
            <br><br>
-           <input type="submit" id="get-name" value="GET YOUR AKAN NAME" onclick="information()" >
+           <input type="submit" id="get-name" value="GET YOUR AKAN NAME" onclick="information(); return false;" ><!--we don't want the form to get submitted if you've made an error-->
        </form>
     </div>
     <form action="" class="reset">

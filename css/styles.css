@@ -40,7 +40,8 @@ body{
  
         text-align: center;
         justify-content: center;
-        color: white;
+        color:white;
+        text-transform: uppercase;
         width: 50%;
         margin-right: auto;
         margin-left: auto;
@@ -110,7 +111,7 @@ background-color: blue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
     .reset{
-        margin-left: 40px;
+        margin-left: 30px;
         text-align:center;
     }
     #reset{
