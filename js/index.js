@@ -43,9 +43,17 @@ function information(){
         document.getElementById("error-text").innerText = "Please enter a valid date!"
     }
 
-    
+    //setting valid dates of a leap year testing that the year is evenly divisible by 4
+    else if ((month === "February") && (day <= 0 || day > 29) && (year %4 ==0)) {
+		document.getElementById("error-text").innerText = "Please enter a valid date!"
+    }
 
 
+    //setting valid dates of a normal year on Feb testing that the year is  not evenly divisible by 4
+    else if ((month === "February") && (day <= 0 || day > 28) && (year %4 !=0)) {
+		document.getElementById("error-text").innerText = "Please enter a valid date!"
+
+    }
 
      //ensures user selects a month
     else if (month === "------") {
