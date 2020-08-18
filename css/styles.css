@@ -29,7 +29,7 @@ body{
         text-align: center;
         justify-content: center;
         width: 80%;
-        height: 140px;
+        height: 150px;
         margin-right: auto;
         margin-left: auto;
         opacity: 0.6;
@@ -60,7 +60,7 @@ body{
         padding-top: 10px;
         margin-right: auto;
         margin-left: auto;
-        height: 80px;
+        height: 85px;
         font-family: Roboto;
         font-size: 20px;
 }
