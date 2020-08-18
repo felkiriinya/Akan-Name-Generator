@@ -73,12 +73,12 @@ function information(){
 
     //if user checks male
     else if (male === true) { 
-        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + ". " + "Your Akan name is " + maleNames[dayOfTheWeek] + "!"
+        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + ". " + " Your Akan name is " + maleNames[dayOfTheWeek] + "!"
     }
 
     //if user checks female
     else if (female === true) { 
-        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + "." + "Your Akan name is " + femaleNames[dayOfTheWeek] + "!"
+        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + "." + " Your Akan name is " + femaleNames[dayOfTheWeek] + "!"
     }      
 
      
