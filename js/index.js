@@ -33,26 +33,47 @@ function information(){
 
 
     //ensures user enters a date and validates date entered for months with 31 days
-    //if (day <= 0 || day > 31) { 
-		//document.getElementById("error-text").innerText = "Please enter a valid date!"//replaces the please enter valid dates and shows the error message
-    //}
+    if (day <= 0 || day > 31) { 
+		document.getElementById("error-text").innerText = "Please enter a valid date!"//replaces the please enter valid dates and shows the error message
+    }
+
+    //ensures user enters a date and validates date entered for months with 30 days
+
+    else if ((month === "September" || month === "April" || month === "June" || month === "November") && (day <= 0 || day > 30)) { 
+        document.getElementById("error-text").innerText = "Please enter a valid date!"
+    }
+
+    
+
+
 
      //ensures user selects a month
-     if (month === "------") {
+    else if (month === "------") {
 		document.getElementById("error-text").innerText = "Please select a month!" //shows error message by replacing please enter valid dates
     }
 
     //ensures user enters a year and the year entered is valid and doesn't exceed 2020
     else if (year <= 0 || year > 2020) { 
-        document.getElementById("error").innerText = "Please enter a valid year!" // replacing the please enter valid dates with the error text
+        document.getElementById("error-text").innerText = "Please enter a valid year!" // replacing the please enter valid dates with the id error-text
     }
-    else if (male === true) { //styling of results for a male user
-        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + maleNames[dayOfTheWeek] + "!"
-    }
-    else if (female === true) { //styling results of a female user
-        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + ".\n" + "Your Akan name is " + femaleNames[dayOfTheWeek] + "!"
-    }        
+   //ensures user selects at least one gender
+   else if ((female === false) && (male === false)) { 
+    document.getElementById("error-text").innerText = "Please select gender!"
 
+ }
+
+
+    //if user checks male
+    else if (male === true) { 
+        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + ". " + "Your Akan name is " + maleNames[dayOfTheWeek] + "!"
+    }
+
+    //if user checks female
+    else if (female === true) { 
+        document.getElementById("displayName").innerHTML = "You were born on a " + days[dayOfTheWeek] + "." + "Your Akan name is " + femaleNames[dayOfTheWeek] + "!"
+    }      
+
+     
 
 
 }
