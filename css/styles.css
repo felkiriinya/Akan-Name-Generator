@@ -113,20 +113,20 @@ background-color: blue;
         margin-left: 40px;
         text-align:center;
     }
-    .reset-btn{
+    #reset{
         width: 30%;
     margin: 20px;
     padding: 10px;
     color: #FFF;
     outline: none;
-    opacity: 0.7;
+    opacity: 0.6;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     background-color:chocolate;
 
     }
-    .reset-btn:hover{
+    #reset:hover{
         background-color: darkblue;
     }
     

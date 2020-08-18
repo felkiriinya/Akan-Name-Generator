@@ -85,4 +85,5 @@ function information(){
 
 
 }
-
+function click(){
+document.getElementById("reset").reset();}
