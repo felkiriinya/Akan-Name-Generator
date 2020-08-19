@@ -2,10 +2,10 @@ function information(){
     //getting the value of the year
     var year=document.getElementById("yearInput").value; 
 
-    //getting the value of the year
+    //getting the value of the month
     var month=document.getElementById("monthInput").value; 
 
-    //getting the value of the year
+    //getting the value of the day
     var day=document.getElementById("dayInput").value; 
 
     //if male is checked true is returned and false if not
@@ -85,5 +85,6 @@ function information(){
 
 
 }
+//reset button function using the reset method
 function click(){
 document.getElementById("reset").reset();}
