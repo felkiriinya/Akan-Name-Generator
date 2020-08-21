@@ -1,5 +1,5 @@
 # Akan Name Generator
-#### A web application that allows one to generate their Akan name,  19th August 2020
+#### A web application that allows one to generate their Akan name,  21st August 2020
 #### By **Felista Kiriinya**
 ## Description
 This is a web application that gives a short brief on Akan names: their origin and how one is allocated an Akan name. The web app also allows one to generate their own Akan name
