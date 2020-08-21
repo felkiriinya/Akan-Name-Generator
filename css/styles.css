@@ -31,12 +31,15 @@ body{
     
 }
 .fillup{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     
         background-color:brown;
         text-align: center;
         justify-content: center;
         width: 80%;
-        height: 150px;
+        
         margin-right: auto;
         margin-left: auto;
         opacity: 0.6;
@@ -73,6 +76,8 @@ body{
         font-size: 20px;
 }
 .user-input{
+    flex-direction: column;
+
     text-align: center;
     background-color: brown;
     padding: 10px;
