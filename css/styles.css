@@ -77,12 +77,11 @@ body{
 }
 .user-input{
     flex-direction: column;
-
     text-align: center;
     background-color: brown;
     padding: 10px;
     margin: 10px;
-   border-radius: 10px;
+    border-radius: 10px;
     opacity: 0.7;
     color: white;
     font-size: 18px;
@@ -100,13 +99,12 @@ body{
     background-color:chocolate;
 }
 #get-name:hover{
-background-color: blue;
+    background-color: blue;
 }
 .copyright{
     text-align: center;
     background-color: black;
     color: white;
-   
     justify-content: center;
     opacity: 0.9;
     padding: 20px;

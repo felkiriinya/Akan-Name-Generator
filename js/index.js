@@ -69,7 +69,7 @@ function information(){
     document.getElementById("error-text").innerText = "Please select gender!"
 
  }
-
+//AFTER FORM VALIDATION
 
     //if user checks male
     else if (male === true) { 
